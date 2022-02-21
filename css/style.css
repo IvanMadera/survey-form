@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* background-color: #1572A1; */
+    /* background: url(../img/texture.jpg); */
+    
+    background: linear-gradient(
+            to left,
+            rgba(21, 114, 161, 0.3),
+            rgba(21, 114, 161, 0.3)
+        ),
+        url(../img/texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.maximo {
+    width: 95%;
+    max-width: 43.75rem;
+    margin: 0 auto;
+    border: 0.0625rem red solid;
+}
+
+.header {
+    padding: 2.5rem 0;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: .625rem;
+}
+
+.header p {
+    font-style: italic;
+}
+
+#survey-form {
+    border-radius: .3125rem;
+    padding: 3.125rem;
+    color: white;
+    background: rgba( 39, 0, 130, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-bottom: 3rem;
+}
+
+.form-group {
+    padding: 0.9375rem 0;
+}
+
+label, .form-group p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.625rem;
+}
+
+.clue {
+    font-size: 0.75rem;
+    margin-left: 0.3125rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.6rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #ced4da;
+    background-clip: padding-box;
+    background-color: white;
+}
+
+.form-control:focus,
+.input-textarea:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25)
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+    min-height: 7.5rem;
+    width: 100%;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
+    resize: vertical;
+}
+
+.submit-button {
+    width: 100%;
+    border: none;
+    display: block;
+    padding: 0.625rem 0;
+    border-radius: 0.3125rem;
+    background-color: #219F94;
+    color: white;
+    cursor: pointer;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
